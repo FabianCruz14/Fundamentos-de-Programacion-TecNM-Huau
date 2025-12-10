@@ -8,15 +8,15 @@
 #include <stdio.h>
 
 // PROTOTIPO DE PROCEDIMIENTO
-void IMC(int weight, float height);
+void IMC(float weight, float height);
 
 int main()
 {
-    int weight;
     float height;
+    float weight;
 
     printf("Ingrese su peso en kilogramos: ");
-    scanf("%d", &weight);
+    scanf("%f", &weight);
     printf("Ingrese su altura en metros: ");
     scanf("%f", &height);
 
@@ -25,7 +25,7 @@ int main()
 }
 
 // DEFINICION DEL PROCEDIMIENTO
-void IMC(int weight, float height)
+void IMC(float weight, float height)
 {
     float imc = weight / (height * height);
     printf("Su índice de masa corporal (IMC) es: %.2f\n", imc);
