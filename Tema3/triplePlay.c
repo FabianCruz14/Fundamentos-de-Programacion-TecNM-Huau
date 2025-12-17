@@ -93,3 +93,6 @@ int main()
 
     return 0;
 }
+
+// aqui esta mi repositorio en github :
+// https://github.com/FabianCruz14/Fundamentos-de-Programacion-TecNM-Huau/tree/main/Tema3
